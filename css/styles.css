@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  
+  body {
+    line-height: 1.618;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    color: #0C2D48; 
+  }
+  
+  h1 {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 4em;
+    text-align: center;
+    color: #2E8BC0;
+    padding-top: 20px;
+  }
+  
+  h2 {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+    color: #145DA0;
+  }
+
+  h3 {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 1.5em;
+    text-align: left;
+    color: #0C2D48;
+  }
+  
+  img {
+    max-width: 100%;
+    vertical-align: middle;
+  }
+
+  #fp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  #sotd {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .playlistFB {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    margin: 20px;
+  }
+
+  .playlist {
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 400px;
+    height: 750px;
+    justify-content: space-between;
+  }
+
+  #favList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+  }
+
+  .item {
+    padding: 20px;
+  }
+
+  @media all and (max-width: 500px) {
+    .playlist {
+      height: 10%;
+      padding-bottom: 50px;
+    }
+
+    #fp {
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  }
+  
